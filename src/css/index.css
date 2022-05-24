@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+a {
+	outline: none;
+	cursor: pointer;
+  }
+  
+img {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+  

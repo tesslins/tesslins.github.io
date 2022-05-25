@@ -51,7 +51,7 @@ img {
 /* toggle */
 .switch {
 	position: relative;
-	display: inline-block;
+	display: block;
 	width: 60px;
 	height: 34px;
 }
@@ -63,7 +63,7 @@ img {
 }
 
 switch::before {
-    content: 'AM';
+    content: 'minimalist';
     position: absolute;
     left: -50px;
     top: 15px;
@@ -71,7 +71,7 @@ switch::before {
 }
 
 .switch::after {
-    content: 'PM';
+    content: 'maximalist';
     position: absolute;
     right: -48px;
     top: 15px;

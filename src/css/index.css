@@ -78,14 +78,14 @@ img {
 	content: 'minimalist';
 	font-size: 18px;
 	position: absolute;
-	left: -50px;
+	left: -100px;
 	top: 15px;
   }
 
   .toggle:after {
 	content: 'maximalist';
 	position: absolute;
-	right: -48px;
+	right: -100px;
 	top: 15px;
 	font-size: 18px;
 	color: #749ED7;

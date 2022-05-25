@@ -50,8 +50,9 @@ img {
 
 /* toggle */
 .switch {
+	display: inline-block;
+	margin: 0 auto;
 	position: relative;
-	display: block;
 	width: 60px;
 	height: 34px;
 }
@@ -62,21 +63,22 @@ img {
 	height: 0;
 }
 
-switch::before {
+.switch:before {
     content: 'minimalist';
+	font-size: 18px;
+	left: -120px;
     position: absolute;
-    left: -50px;
-    top: 15px;
-    font-size: 18px;
+    top: 6px;
 }
 
-.switch::after {
+.switch:after {
+	color: #DB0317;
     content: 'maximalist';
+	font-family: 'Pacifico', Helvetica, Arial, sans-serif;
+	font-size: 25px;
     position: absolute;
-    right: -48px;
-    top: 15px;
-    font-size: 18px;
-    color: #749ED7;
+    right: -120px;
+    top: -8px;
   }
 
 .slider {
@@ -104,11 +106,11 @@ switch::before {
 }
   
 input:checked + .slider {
-	background-color: #2196F3;
+	background-color: #FF7B6C;
 }
   
 input:focus + .slider {
-	box-shadow: 0 0 1px #2196F3;
+	box-shadow: 0 0 1px #FF7B6C;
 }
   
 input:checked + .slider:before {

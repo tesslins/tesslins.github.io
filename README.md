@@ -14,3 +14,6 @@ STEPS I DID TO DO THIS
 8. Within the `/src/` directory, create an `img/` directory. Within that directory, add the favicon.ico (an emoji favicon, for the time being) and a "profile" image of myself that I choose earlier.
 9. Start building the page by adding content to `index.html` and styling to `src/css/index.css`.
 10. Add a `_config.yml` and a `.nojekyll` file to root directory, both specific to Github pages (the `.nojekyll` file indicates that the page is not using a Jekyll template, which is the default for Github pages.)
+
+SOME INSPO/USEFUL RESOURCES
+- https://github.com/SethClydesdale/sethclydesdale.github.io

@@ -17,3 +17,4 @@ STEPS I DID TO DO THIS
 
 SOME INSPO/USEFUL RESOURCES
 - https://github.com/SethClydesdale/sethclydesdale.github.io
+- https://codepen.io/alvarotrigo/pen/wvPRrZW (that sweet, sweet toggle)

@@ -62,7 +62,7 @@ img {
 	height: 0;
 }
 
-switch:before {
+switch::before {
     content: 'AM';
     position: absolute;
     left: -50px;
@@ -70,7 +70,7 @@ switch:before {
     font-size: 18px;
 }
 
-.switch:after {
+.switch::after {
     content: 'PM';
     position: absolute;
     right: -48px;

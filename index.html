@@ -13,18 +13,24 @@
 	</head>
 	<body>
 		<div class="flex-column">
-			<div class="flex-row">
-				<label class="switch">
-					<input type="checkbox">
-					<span class="slider round"></span>
-				</label>
-			</div>
-			<div class="flex-row">
-				<div class="flex-item flex-column">
-					<img class="image" src="src/img/lip-sunglasses.png">
-				</div>
+			<!-- Toggle -->
+			<div id="toggle-container" class="flex-row"></div>
+			<!-- minimalist page -->
+			<div id="minimalist-page"></div>
+			<!-- maximalist page -->
+			<div id="maximalist-page">
+				<div class="flex-row">
+					<div class="flex-item flex-column">
+						<img class="image" src="src/img/lip-sunglasses.png">
+					</div>
+				</div>	
 			</div>
 		</div>
+			<!-- Load React. -->
+ 			<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+			<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+			<!-- Load React component. -->
+			<script src="src/js/index.js"></script>
 	</body>
 </html>
 

@@ -49,7 +49,7 @@ img {
 }
 
 /* toggle */
-.switch {
+.toggle-switch {
 	display: inline-block;
 	margin: 0 auto;
 	position: relative;
@@ -57,13 +57,13 @@ img {
 	height: 34px;
 }
   
-.switch input {
+.toggle-switch input {
 	opacity: 0;
 	width: 0;
 	height: 0;
 }
 
-.switch:before {
+.toggle-switch:before {
     content: 'minimalist';
 	font-size: 18px;
 	left: -120px;
@@ -71,7 +71,7 @@ img {
     top: 6px;
 }
 
-.switch:after {
+.toggle-switch:after {
 	color: #DB0317;
     content: 'maximalist';
 	font-family: 'Pacifico', Helvetica, Arial, sans-serif;

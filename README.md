@@ -2,7 +2,7 @@
 
 This is the code for my personal Github page.
 
-STEPS I DID TO DO THIS
+STEPS TO BUILDING THIS
 1. Mess around a bit and try to decide what tech I want to use and how manual I want the set-up to be. Admire the theory of using React, yet eventually decide I do not want a giant framework for a tiny site.
 2. Make a favicon & find a fun profile-y image (not important, fun though!)
 3. Decide to use github pages (mostly out of ease & interest since I have never set a Github page up before). Set up repository with correct name following the [Github documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
@@ -22,6 +22,8 @@ TECH & DESIGN
 - love using the [ColorPick Chrome extension](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) to decide on colors
 
 SOME INSPO & HOW-TOs & USEFUL RESOURCES
-- https://reactjs.org/docs/add-react-to-a-website.html
+- react
+- 	https://reactjs.org/docs/add-react-to-a-website.html
+- 	https://www.pluralsight.com/guides/just-plain-react
 - https://github.com/SethClydesdale/sethclydesdale.github.io
-- https://codepen.io/alvarotrigo/pen/wvPRrZW (that sweet, sweet toggle)
+- https://www.w3schools.com/howto/howto_css_switch.asp for toggle switch

@@ -1,7 +1,5 @@
-// Based on the tutorial at https://reactjs.org/docs/add-react-to-a-website.html & https://upmostly.com/tutorials/build-a-react-switch-toggle-component
 'use strict';
 
-// https://reactjs.org/docs/react-api.html#createelement
 const e = React.createElement;
 
 class Toggle extends React.Component {
@@ -13,11 +11,15 @@ class Toggle extends React.Component {
 
   render() {
     return e(
+      // HTML translation of the following:
+      // <label class="toggle-switch">
+      //   <input type="checkbox">
+      //   <span class="slider round"></span>
+      // </label>
       'label', {className: 'toggle-switch'}, [
-        e('checkbox', 
+        e('input', 
           { 
-            checked: () => this.setState({ maximalist: true }), 
-            onChange: () => null 
+            type: 'checkbox',
           }, 
           null),
         e('span', {className: 'slider round'}, null)

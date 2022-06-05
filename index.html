@@ -10,25 +10,34 @@
 		<link href="src/css/index.css" media="screen" rel="stylesheet" type="text/css" />
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<script src="https://unpkg.com/vue@3"></script>
 	</head>
 	<body>
-		<div class="flex-column">
-			<!-- Toggle -->
-			<div id="toggle-container" class="flex-row flex-item"></div>
-			<!-- minimalist page -->
-			<!-- <div id="minimalist-page"></div> -->
-			<!-- maximalist page -->
-			<!-- <div id="maximalist-page" class="flex-row">
-				<div class="flex-item flex-column">
-					<img class="image" src="src/img/lip-sunglasses.png">
-				</div>	
-			</div> -->
+		<div id="app">
+			<div class="flex-row flex-item">
+				<label for="toggle" class="toggle-switch" >
+			  	<input type="checkbox" id="toggle" v-model="toggled">
+			  	<span class="slider round"></span>
+			 	</label>
+			</div>
+			<div v-if="toggled" id="maximalist-page" class="flex-row flex-item">
+				<img src="src/img/lip-sunglasses.png">
+			</div>
+			<div v-else id="minimalist-page" class="flex-row flex-item">
+			</div>
 		</div>
-			<!-- Load React. -->
- 			<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-			<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-			<!-- Load React component. -->
-			<script src="src/js/index.js"></script>
+			<!-- Vue script. -->
+			<script>
+				const { createApp } = Vue;
+				createApp({
+					data() {
+						return {
+							toggled: false
+						}
+					}
+				}).mount('#app')
+
+			</script>
 	</body>
 </html>
 

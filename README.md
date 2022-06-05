@@ -14,16 +14,15 @@ STEPS TO BUILDING THIS
 9. Start building the page by adding content to `index.html` and styling to `src/css/index.css`.
 10. Add a `_config.yml` and a `.nojekyll` file to root directory, both specific to Github pages (the `.nojekyll` file indicates that the page is not using a Jekyll template, which is the default for Github pages.)
 11. Spend an inordinate amount of time designing a toggle to display the (future) minimalist & maximalist versions of the page (aka I can never look at too many Google fonts 😍).
-12. Add React as a `script` to the HTML; I wanted some way to conditionally render the "minimalist" and "maximalist" page designs rather than use vanilla javascript or jquery to hide/show elements. Stick with vanilla React (is there such a thing?) instead of using JSX for the time being.
+12. Add Vue as a `script` to the HTML; I wanted some way to conditionally render the "minimalist" and "maximalist" page designs rather than use vanilla javascript or jquery to hide/show elements.
+13. Create a visually function & cute react Toggle component.
 
 TECH & DESIGN
-- react (added to the HTML for the most basic implementation possible)
+- Vue (added to the HTML for the most basic implementation possible)
 - fonts from https://fonts.google.com/
 - love using the [ColorPick Chrome extension](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) to decide on colors
 
 SOME INSPO & HOW-TOs & USEFUL RESOURCES
-- react
-- 	https://reactjs.org/docs/add-react-to-a-website.html
-- 	https://www.pluralsight.com/guides/just-plain-react
-- https://github.com/SethClydesdale/sethclydesdale.github.io
-- https://www.w3schools.com/howto/howto_css_switch.asp for toggle switch
+- for Vue without build tools https://vuejs.org/guide/quick-start.html#without-build-tools
+- for initial ideas of site structure https://github.com/SethClydesdale/sethclydesdale.github.io
+- for toggle switch https://www.w3schools.com/howto/howto_css_switch.asp

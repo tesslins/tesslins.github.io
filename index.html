@@ -8,13 +8,14 @@
 		<meta name="language" content="en">
 		<meta charset="UTF-8">
 		<link href="src/css/index.css" media="screen" rel="stylesheet" type="text/css" />
+		<link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<script src="https://unpkg.com/vue@3"></script>
 	</head>
 	<body>
 		<div id="app">
-			<div class="flex-row flex-item">
+			<div class="flex-row flex-item top-row">
 				<label for="toggle" class="toggle-switch" >
 			  	<input type="checkbox" id="toggle" v-model="toggled">
 			  	<span class="slider round"></span>
@@ -24,6 +25,8 @@
 				<img src="src/img/lip-sunglasses.png">
 			</div>
 			<div v-else id="minimalist-page" class="flex-row flex-item">
+			</div>
+			<div>
 			</div>
 		</div>
 			<!-- Vue script. -->

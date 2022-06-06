@@ -15,7 +15,8 @@ STEPS TO BUILDING THIS
 10. Add a `_config.yml` and a `.nojekyll` file to root directory, both specific to Github pages (the `.nojekyll` file indicates that the page is not using a Jekyll template, which is the default for Github pages.)
 11. Spend an inordinate amount of time designing a toggle to display the (future) minimalist & maximalist versions of the page (aka I can never look at too many Google fonts 😍).
 12. Add Vue as a `script` to the HTML; I wanted some way to conditionally render the "minimalist" and "maximalist" page designs rather than use vanilla javascript or jquery to hide/show elements.
-13. Create a visually function & cute react Toggle component.
+13. Create a functional & silly toggle component.
+14. Add content to the page about my engineering life.
 
 TECH & DESIGN
 - Vue (added to the HTML for the most basic implementation possible)
@@ -26,3 +27,4 @@ SOME INSPO & HOW-TOs & USEFUL RESOURCES
 - for Vue without build tools https://vuejs.org/guide/quick-start.html#without-build-tools
 - for initial ideas of site structure https://github.com/SethClydesdale/sethclydesdale.github.io
 - for toggle switch https://www.w3schools.com/howto/howto_css_switch.asp
+- for emojis https://emojipedia.org/

@@ -15,18 +15,72 @@
 	</head>
 	<body>
 		<div id="app">
-			<div class="flex-row flex-item top-row">
-				<label for="toggle" class="toggle-switch" >
-			  	<input type="checkbox" id="toggle" v-model="toggled">
-			  	<span class="slider round"></span>
-			 	</label>
+			<div class="flex-column">
+				<div class="flex-row flex-item top-row">
+					<label for="toggle" class="toggle-switch" >
+						<input type="checkbox" id="toggle" v-model="toggled">
+						<span class="slider round"></span>
+					</label>
+				</div>
+				<div 
+					class="flex-row flex-item"
+				>
+					<img 
+						v-if="toggled" 
+						src="src/img/lip-sunglasses.png"
+					>
+				</div>
 			</div>
-			<div v-if="toggled" id="maximalist-page" class="flex-row flex-item">
-				<img src="src/img/lip-sunglasses.png">
-			</div>
-			<div v-else id="minimalist-page" class="flex-row flex-item">
-			</div>
-			<div>
+			<div 
+				class="flex-column"
+				:class="toggled ? 'maximalist' : 'minimalist'" 
+			>
+				<div class="flex-row">
+					hello world, nice to meet you ✨ I am a human & a software engineer.
+				</div>
+				<div class="list-header flex-row">
+					roles & education
+				</div>
+				<div class="flex-row">
+					<ul>
+						<li>kink.com | 6.5 years as an individual contributor, team lead, and engineering manager</li>
+						<ul>
+							<li><a href="https://github.com/tesslins/manager-readme">This is a manager README</a> I wrote while at Kink that reflects my current managerial style at that time.</li>
+							<li>Before becoming a full-time manager in my last year at Kink, I spent the previous two years as a project lead building a new publishing pipeline and content management system.</li>
+						</ul>
+						<li>AgileMD | 1 year as a web engineer</li>
+						<ul>
+							<li>First job as a baby engineer!</li>
+						</ul>
+						<li>Hackbright Academy | 3 months as a software engineering fellow</li>
+						<li> ~ several positions in environmental geology ~ </li>
+							<ul>
+								<li>(Yes, I still love geology & rocks, and also had complicated experiences in and feelings about the industry.) </li>
+							</ul>
+						<li>University of California Santa Cruz | B.S. in Earth Science</li>
+					</ul>
+				</div>
+				<div class="list-header flex-row">
+					other things i do
+				</div>
+				<div class="flex-row">
+					<ul>
+						<li>go into mountains and deserts</li>
+						<li>go running, especially on amazing East Bay trails (am currently training for a 50k, wtf)</li>
+						<li>tool around in Hazard, a 1982 Volkswagen van</li>
+						<li>grow some plants outside (even though I currently live under several giant live oak trees) and inside</li>
+						<li>read lots of books (pls share your book recs!)</li>
+						<li>go to protests & rallies in East Bay & sometimes in SF</li>
+					</ul>
+				</div>
+				<div class="list-header flex-row">
+					random things i admire or find interesting that are on the internet
+				</div>
+				<div class="flex-row">
+					<ul>
+						<li>https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 			<!-- Vue script. -->

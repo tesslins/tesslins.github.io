@@ -15,6 +15,7 @@ a {
 }
   
 img {
+	border-radius: 50%;
 	max-height: 250px;
   min-width: 250px;
   object-fit: cover;
@@ -73,6 +74,7 @@ img {
 
 .toggle-switch:before {
   content: 'minimalist';
+	font-family: 'Roboto Mono';
 	font-size: 2rem;
 	left: -200px;
   position: absolute;
@@ -82,7 +84,7 @@ img {
 .toggle-switch:after {
 	color: #DB0317;
   content: 'maximalist';
-	font-family: 'Pacifico', Helvetica, Arial, sans-serif;
+	font-family: 'Pacifico';
 	font-size: 3rem;
   position: absolute;
   right: -230px;
@@ -135,17 +137,38 @@ input:checked + .slider:before {
 	border-radius: 50%;
 }
 
+.main-content {
+	margin: 25px;
+	line-height: 2;
+}
+
 /* maximalist styling */
-.maximalist { 
-	font-family: 'Pacifico', Helvetica, Arial, sans-serif;
+.maximalist {
+	background: #F80329;
+	color: #78BE21;
+	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
 }
 
 /* minimalist styling */
+.minimalist {
+}
 
 .list-header {
+	font-size: 1.5rem;
 	margin-top: 25px;
 	text-transform: uppercase;
 }
+
+.first-item {
+	font-size: 1.25rem;
+}
+
+.centered-text {
+	font-size: 1.5rem;
+	margin: 0 auto;
+}
+
+
   
   
   

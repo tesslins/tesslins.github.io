@@ -16,7 +16,8 @@ STEPS TO BUILDING THIS
 11. Spend an inordinate amount of time designing a toggle to display the (future) minimalist & maximalist versions of the page (aka I can never look at too many Google fonts 😍).
 12. Add Vue as a `script` to the HTML; I wanted some way to conditionally render the "minimalist" and "maximalist" page designs rather than use vanilla javascript or jquery to hide/show elements.
 13. Create a functional & silly toggle component.
-14. Add content to the page about my engineering life.
+14. Add content (about my engineering life & other life).
+15. Style it (set a cool background color, font, and font color to the "maximalist" page; adjust a bunch of font sizes).
 
 TECH & DESIGN
 - Vue (added to the HTML for the most basic implementation possible)

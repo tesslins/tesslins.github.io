@@ -11,78 +11,94 @@
 		<link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet' type='text/css'>
 		<script src="https://unpkg.com/vue@3"></script>
 	</head>
 	<body>
 		<div id="app">
-			<div class="flex-column">
-				<div class="flex-row flex-item top-row">
-					<label for="toggle" class="toggle-switch" >
-						<input type="checkbox" id="toggle" v-model="toggled">
-						<span class="slider round"></span>
-					</label>
-				</div>
-				<div 
-					class="flex-row flex-item"
-				>
-					<img 
-						v-if="toggled" 
-						src="src/img/lip-sunglasses.png"
+			<div :class="toggled ? 'maximalist' : 'minimalist'">
+				<div class="flex-column">
+					<div class="flex-row flex-item top-row">
+						<label for="toggle" class="toggle-switch" >
+							<input type="checkbox" id="toggle" v-model="toggled">
+							<span class="slider round"></span>
+						</label>
+					</div>
+					<div 
+						class="flex-row flex-item"
 					>
+						<img 
+							v-if="toggled" 
+							src="src/img/lip-sunglasses.png"
+						>
+					</div>
 				</div>
-			</div>
-			<div 
-				class="flex-column"
-				:class="toggled ? 'maximalist' : 'minimalist'" 
-			>
-				<div class="flex-row">
-					hello world, nice to meet you ✨ I am a human & a software engineer.
-				</div>
-				<div class="list-header flex-row">
-					roles & education
-				</div>
-				<div class="flex-row">
-					<ul>
-						<li>kink.com | 6.5 years as an individual contributor, team lead, and engineering manager</li>
+				<div class="flex-column main-content">
+					<div class="flex-row centered-text">
+						hello world, nice to meet you ✨ I am a human & a software engineer.
+					</div>
+					<div class="list-header flex-row">
+						💻 previous roles & education
+					</div>
+					<div class="flex-row">
 						<ul>
-							<li><a href="https://github.com/tesslins/manager-readme">This is a manager README</a> I wrote while at Kink that reflects my current managerial style at that time.</li>
-							<li>Before becoming a full-time manager in my last year at Kink, I spent the previous two years as a project lead building a new publishing pipeline and content management system.</li>
-						</ul>
-						<li>AgileMD | 1 year as a web engineer</li>
-						<ul>
-							<li>First job as a baby engineer!</li>
-						</ul>
-						<li>Hackbright Academy | 3 months as a software engineering fellow</li>
-						<li> ~ several positions in environmental geology ~ </li>
+							<li><span class="first-item">kink.com</span> | individual contributor, team lead (IC + managing 2-5 engineers), and engineering manager (managing 8 engineers) | 6.5 years</li>
 							<ul>
-								<li>(Yes, I still love geology & rocks, and also had complicated experiences in and feelings about the industry.) </li>
+								<li><a href="https://github.com/tesslins/manager-readme">This is a manager README</a> I wrote while at Kink that reflects my current managerial style at that time.</li>
+								<li>Before becoming a full-time manager in my last year at Kink, I spent the previous two years as project lead and main contributor for a new video content publishing pipeline and content management system.</li>
+								<li>Other notable IC projects included: work with payments & billing postbacks (including integrating a new payment processor); contributed to building the frontend of a new affiliate UI in Angular 1, contributed to large features on main high-traffic website (up to 5 million monthly users).</li>
 							</ul>
-						<li>University of California Santa Cruz | B.S. in Earth Science</li>
-					</ul>
-				</div>
-				<div class="list-header flex-row">
-					other things i do
-				</div>
-				<div class="flex-row">
-					<ul>
-						<li>go into mountains and deserts</li>
-						<li>go running, especially on amazing East Bay trails (am currently training for a 50k, wtf)</li>
-						<li>tool around in Hazard, a 1982 Volkswagen van</li>
-						<li>grow some plants outside (even though I currently live under several giant live oak trees) and inside</li>
-						<li>read lots of books (pls share your book recs!)</li>
-						<li>go to protests & rallies in East Bay & sometimes in SF</li>
-					</ul>
-				</div>
-				<div class="list-header flex-row">
-					random things i admire or find interesting that are on the internet
-				</div>
-				<div class="flex-row">
-					<ul>
-						<li>https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z</li>
-					</ul>
+							<li><span class="first-item">AgileMD</span> | web engineer | 1 year</li>
+							<ul>
+								<li>First job as a baby engineer!</li>
+							</ul>
+							<li><span class="first-item">Hackbright Academy</span> | software engineering fellow | 3 months</li>
+							<li><span class="first-item">~ several positions in environmental geology ~</span></li>
+								<ul>
+									<li>(Yes, I still love geology & rocks, and also had complicated experiences in and feelings about the industry.) </li>
+								</ul>
+							<li><span class="first-item">University of California Santa Cruz</span> | B.S. in Earth Science</li>
+						</ul>
+					</div>
+					<div class="list-header flex-row">
+						⚙️ tech stack
+					</div>
+					<div class="flex-row">
+						<ul>
+							<li>Node microservice architecture with Express framework</li>
+							<li>MySQL & MongoDB databases</li>
+							<li>Redis as a caching layer</li>
+							<li>Vue</li>
+							<li>AWS (most familiar with Elastic Transcoder, Lambda, SNS, & S3)</li>
+						</ul>
+					</div>
+					<div class="list-header flex-row">
+						🌞 other things i do
+					</div>
+					<div class="flex-row">
+						<ul>
+							<li>go into mountains and deserts</li>
+							<li>go running, especially on amazing East Bay trails (am currently training for a 50k, wtf)</li>
+							<li>tool around in Hazard, a 1982 Volkswagen van</li>
+							<li>grow some plants outside (even though I currently live under several giant live oak trees) and inside</li>
+							<li>read lots of books & poems (pls share your book recs!)</li>
+							<li>go to protests & rallies in East Bay & sometimes in SF</li>
+						</ul>
+					</div>
+					<div class="list-header flex-row">
+						🔗 random things i admire or find interesting that are on the internet
+					</div>
+					<div class="flex-row">
+						<ul>
+							<li>https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z & https://stackoverflow.blog/2022/02/15/gen-z-doesnt-understand-file-structures-ep-415/</li>
+						</ul>
+					</div>
+					<div class="flex-row centered-text">
+						cheers! good bye & thank you for visiting
+					</div>
 				</div>
 			</div>
-		</div>
+		</div> <!-- /app -->
 			<!-- Vue script. -->
 			<script>
 				const { createApp } = Vue;

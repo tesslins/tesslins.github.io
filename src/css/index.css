@@ -73,22 +73,20 @@ img {
 }
 
 .toggle-switch:before {
-  content: 'minimalist';
-	font-family: 'Roboto Mono';
-	font-size: 2rem;
-	left: -200px;
+  content: '🤖';
+	font-size: 3rem;
+	left: -60px;
   position: absolute;
-  top: -5px;
+  top: -18px;
 }
 
 .toggle-switch:after {
 	color: #DB0317;
-  content: 'maximalist';
-	font-family: 'Pacifico';
+  content: '🦋';
 	font-size: 3rem;
   position: absolute;
-  right: -230px;
-  top: -32px;
+  right: -58px;
+  top: -18px;
 }
 
 .slider {
@@ -149,9 +147,6 @@ input:checked + .slider:before {
 	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
 }
 
-/* minimalist styling */
-.minimalist {
-}
 
 .list-header {
 	font-size: 1.5rem;
@@ -168,6 +163,25 @@ input:checked + .slider:before {
 	margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) {
+		.toggle-switch:after {
+			color: #DB0317;
+			content: 'maximalist';
+			font-family: 'Pacifico';
+			font-size: 2.5rem;
+			position: absolute;
+			right: -200px;
+			top: -24px;
+	}
+	.toggle-switch:before {
+		content: 'minimalist';
+		font-family: 'Roboto Mono';
+		font-size: 1.9rem;
+		left: -200px;
+		position: absolute;
+		top: -4px;
+	}
+}
 
   
   

@@ -163,6 +163,7 @@ input:checked + .slider:before {
 	margin: 0 auto;
 }
 
+/* media queries */
 @media screen and (min-width: 480px) {
 		.toggle-switch:after {
 			color: #DB0317;

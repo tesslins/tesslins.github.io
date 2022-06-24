@@ -1,10 +1,10 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
+	background-color: white;
+	font-family:'Roboto Mono', Helvetica, Arial, sans-serif;
   left: 0;
+	margin: 0;
+  padding: 0;
   right: 0;
   width: auto;
 }
@@ -15,12 +15,8 @@ a {
 }
   
 img {
-	border-radius: 50%;
-	max-height: 250px;
-  min-width: 250px;
   object-fit: cover;
 	user-select: none;
-  vertical-align: top;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -30,23 +26,23 @@ img {
 
 /* flexbox styling */
 .flex-column {
+	align-items: stretch;
+	align-content: center;
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	align-items: stretch;
-	align-content: center;
-	box-sizing: border-box;
 }
 
 .flex-row {
+	align-items: center;
+	align-content: stretch;
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	align-items: center;
-	align-content: stretch;
-	box-sizing: border-box;
 	margin: 0 auto;
 }
 
@@ -68,9 +64,9 @@ img {
 }
   
 .toggle-switch input {
+	height: 0;
 	opacity: 0;
 	width: 0;
-	height: 0;
 }
 
 .toggle-switch:before {
@@ -91,19 +87,18 @@ img {
 }
 
 .slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
 	background-color: #ccc;
-	-webkit-transition: .4s;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 	transition: .4s;
+	-webkit-transition: .4s;
 }
   
 .slider:before {
-	-webkit-transition: .4s;
 	background-color: white;
 	bottom: 4px;
 	content: "";
@@ -112,6 +107,7 @@ img {
 	position: absolute;
 	transition: .4s;
 	width: 26px;
+	-webkit-transition: .4s;
 }
   
 input:checked + .slider {
@@ -123,9 +119,9 @@ input:focus + .slider {
 }
   
 input:checked + .slider:before {
+	transform: translateX(26px);
 	-webkit-transform: translateX(26px);
 	-ms-transform: translateX(26px);
-	transform: translateX(26px);
 }
   
 .slider.round {
@@ -137,15 +133,27 @@ input:checked + .slider:before {
 }
 
 .main-content {
-	margin: 25px;
 	line-height: 2;
+	margin: 25px;
 }
 
-/* maximalist styling */
+/* maximalist styling start */
 .maximalist {
 	background: #F80329;
 	color: #78BE21;
 	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
+}
+/* maximalist styling end */
+
+.profile-image {
+	border-radius: 50%;
+	max-height: 250px;
+  min-width: 250px;
+  vertical-align: top;
+}
+
+.icon-image {
+	max-width: 50px
 }
 
 .header-text {

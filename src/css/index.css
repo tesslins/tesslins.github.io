@@ -131,11 +131,7 @@ input:checked + .slider:before {
 .slider.round:before {
 	border-radius: 50%;
 }
-
-.main-content {
-	line-height: 2;
-	margin: 25px;
-}
+/* end of toggle styling */
 
 /* maximalist styling start */
 .maximalist {
@@ -145,8 +141,9 @@ input:checked + .slider:before {
 }
 /* maximalist styling end */
 
-p {
-	margin-bottom: 25px;
+.main-content {
+	line-height: 2;
+	padding: 25px;
 }
 
 .profile-image {
@@ -156,8 +153,13 @@ p {
   vertical-align: top;
 }
 
+.icons a {
+	text-decoration: none;
+}
+
 .icon-image {
-	font-size: 3rem;
+	font-size: 2rem;
+	padding: 0 10px;
 }
 
 .header-text {
@@ -166,17 +168,21 @@ p {
 
 .list-header {
 	font-size: 1.5rem;
-	margin-top: 25px;
+	margin: 25px 0 0;
 	text-transform: uppercase;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
 }
 
 .first-item {
 	font-size: 1.25rem;
 }
 
-.paragraph-text {
-	margin: 0 auto;
-	text-align: left;
+.good-bye {
+	margin: 25px 0 0;
 }
 
 /* media queries */

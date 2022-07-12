@@ -181,6 +181,10 @@ input:checked + .slider:before {
 	font-size: 1.25rem;
 }
 
+.contact-info {
+	padding: 0 5px;
+}
+
 .good-bye {
 	margin: 25px 0 0;
 }

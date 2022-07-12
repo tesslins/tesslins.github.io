@@ -19,7 +19,9 @@ STEPS TO BUILDING THIS
 14. Add content (about my engineering life & other life).
 15. Style it (set a cool background color, font, and font color to the "maximalist" page; adjust a bunch of font sizes; design a mobile-first toggle with emojis since it turns out that there are not a lot of good synonyms for "minimalist" and "maximalist" that contain minimal letters).
 16. Swapped the domain to a custom domain using Github docs on [configuring an apex domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain=).
-17. Add some links to useful things (PDF of my resume, LinkedIn, Github) using emojis because of....fun?
+17. Add some links to useful things (PDF of my resume, LinkedIn, Github).
+18. Add a `mailto` and `tel` for email & phone number.
+
 
 TECH & DESIGN
 - Vue (added to the HTML for the most basic implementation possible)

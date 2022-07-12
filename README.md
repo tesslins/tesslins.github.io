@@ -1,6 +1,6 @@
 # Github page for personal website
 
-This is the code for my personal Github page.
+This is the code for my personal Github page @ tesslins.com.
 
 STEPS TO BUILDING THIS
 1. Mess around a bit and try to decide what tech I want to use and how manual I want the set-up to be. Admire the theory of using React, yet eventually decide I do not want a giant framework for a tiny site.
@@ -19,6 +19,7 @@ STEPS TO BUILDING THIS
 14. Add content (about my engineering life & other life).
 15. Style it (set a cool background color, font, and font color to the "maximalist" page; adjust a bunch of font sizes; design a mobile-first toggle with emojis since it turns out that there are not a lot of good synonyms for "minimalist" and "maximalist" that contain minimal letters).
 16. Swapped the domain to a custom domain using Github docs on [configuring an apex domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain=).
+17. Add some links to useful things (PDF of my resume, LinkedIn, Github) using emojis because of....fun?
 
 TECH & DESIGN
 - Vue (added to the HTML for the most basic implementation possible)

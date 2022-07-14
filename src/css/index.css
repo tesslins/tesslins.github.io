@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'EightBit Atari';
+  src: url('../fonts/EightBitAtari/EightBit-Atari-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('../fonts/EightBitAtari/EightBit-Atari-Regular.tff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
 html,
 body {
 	background-color: white;
@@ -137,7 +143,8 @@ input:checked + .slider:before {
 .maximalist {
 	background: #F80329;
 	color: #78BE21;
-	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
+	font-family: 'EightBit Atari', Helvetica, Arial, sans-serif;
+	font-size: .8rem;
 }
 /* maximalist styling end */
 
@@ -191,6 +198,10 @@ input:checked + .slider:before {
 
 /* media queries */
 @media screen and (min-width: 480px) {
+		.maximalist {
+			font-size: .9rem;
+		}
+
 		.toggle-switch:after {
 			color: #DB0317;
 			content: 'maximalist';

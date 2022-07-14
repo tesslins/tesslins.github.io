@@ -21,11 +21,11 @@ STEPS TO BUILDING THIS
 16. Swapped the domain to a custom domain using Github docs on [configuring an apex domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain=).
 17. Add some links to useful things (PDF of my resume, LinkedIn, Github).
 18. Add a `mailto` and `tel` for email & phone number.
-
+19. Add in the Atari font aka favorite silly font perhaps second only to cursive.
 
 TECH & DESIGN
 - Vue (added to the HTML for the most basic implementation possible)
-- fonts from https://fonts.google.com/
+- fonts from https://fonts.google.com/ & https://github.com/TheRobotFactory/EightBit-Atari-Fonts
 - love using the [ColorPick Chrome extension](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) to decide on colors
 
 SOME INSPO & HOW-TOs & USEFUL RESOURCES

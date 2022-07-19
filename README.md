@@ -22,14 +22,17 @@ STEPS TO BUILDING THIS
 17. Add some links to useful things (PDF of my resume, LinkedIn, Github).
 18. Add a `mailto` and `tel` for email & phone number.
 19. Add in the Atari font aka favorite silly font perhaps second only to cursive.
+20. Set up `https`, which turned out to be previously not working because I had incorrectly set up a CNAME record to point to my custom domain with an added `www`.
 
-TECH & DESIGN
+TECH
 - Vue (added to the HTML for the most basic implementation possible)
+
+DESIGN
 - fonts from https://fonts.google.com/ & https://github.com/TheRobotFactory/EightBit-Atari-Fonts
+- for emojis https://emojipedia.org/
 - love using the [ColorPick Chrome extension](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) to decide on colors
 
 SOME INSPO & HOW-TOs & USEFUL RESOURCES
 - for Vue without build tools https://vuejs.org/guide/quick-start.html#without-build-tools
 - for initial ideas of site structure https://github.com/SethClydesdale/sethclydesdale.github.io
 - for toggle switch https://www.w3schools.com/howto/howto_css_switch.asp
-- for emojis https://emojipedia.org/

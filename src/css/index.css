@@ -30,6 +30,10 @@ img {
 	-webkit-user-select: none;
 }
 
+.inline-href {
+	display: inline;
+}
+
 /* flexbox styling */
 .flex-column {
 	align-items: stretch;

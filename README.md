@@ -28,7 +28,10 @@ TECH
 - Vue (added to the HTML for the most basic implementation possible)
 
 DESIGN
-- fonts from https://fonts.google.com/ & https://github.com/TheRobotFactory/EightBit-Atari-Fonts
+- fonts from
+    - https://fonts.google.com/
+    - https://github.com/TheRobotFactory/EightBit-Atari-Fonts
+    - https://github.com/intel/intel-one-mono
 - for emojis https://emojipedia.org/
 - love using the [ColorPick Chrome extension](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en) to decide on colors
 

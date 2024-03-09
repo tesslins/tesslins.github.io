@@ -2,7 +2,7 @@
 
 This is the code for my personal Github page @ tesslins.com.
 
-STEPS TO BUILDING THIS
+STEPS TO BUILDING THIS ORIGINALLY
 1. Mess around a bit and try to decide what tech I want to use and how manual I want the set-up to be. Admire the theory of using React, yet eventually decide I do not want a giant framework for a tiny site.
 2. Make a favicon & find a fun profile-y image (not important, fun though!)
 3. Decide to use github pages (mostly out of ease & interest since I have never set a Github page up before). Set up repository with correct name following the [Github documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).

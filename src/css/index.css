@@ -4,10 +4,16 @@
    url('../fonts/EightBitAtari/EightBit-Atari-Regular.tff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }  
 
+@font-face {
+	font-family: 'Intel One Mono';
+	src: url('../fonts/EightBitAtari/EightBit-Atari-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	 url('../fonts/EightBitAtari/EightBit-Atari-Regular.tff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  } 
+
 html,
 body {
 	background-color: white;
-	font-family:'Roboto Mono', Helvetica, Arial, sans-serif;
+	font-family:'Intel One Mono', Helvetica, Arial, sans-serif;
   left: 0;
 	margin: 0;
   padding: 0;
@@ -213,7 +219,7 @@ input:checked + .slider:before {
 	}
 	.toggle-switch:before {
 		content: 'minimalist';
-		font-family: 'Roboto Mono';
+		font-family: 'Intel One Mono';
 		font-size: 1.9rem;
 		left: -200px;
 		position: absolute;

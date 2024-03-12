@@ -13,7 +13,7 @@
 html,
 body {
 	background-color: white;
-	font-family:'Intel One Mono', Helvetica, Arial, sans-serif;
+	font-family:'Intel One Mono', 'Roboto Mono', Helvetica, Arial, sans-serif;
   left: 0;
 	margin: 0;
   padding: 0;
@@ -219,7 +219,7 @@ input:checked + .slider:before {
 	}
 	.toggle-switch:before {
 		content: 'minimalist';
-		font-family: 'Intel One Mono';
+		font-family: 'Roboto Mono';
 		font-size: 1.9rem;
 		left: -200px;
 		position: absolute;

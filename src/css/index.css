@@ -6,8 +6,8 @@
 
 @font-face {
 	font-family: 'Intel One Mono';
-	src: url('../fonts/EightBitAtari/EightBit-Atari-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-	 url('../fonts/EightBitAtari/EightBit-Atari-Regular.tff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	src: url('../fonts/EightBitAtari/IntelOneMono-Regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	 url('../fonts/EightBitAtari/IntelOneMono-Regular.tff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
   } 
 
 html,
